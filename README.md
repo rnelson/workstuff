@@ -12,8 +12,9 @@ Because of the lack of git, you have use the [zip file](https://github.com/rnels
 that GitHub automatically generates.
 
 ```
-$ wget --no-check-certificate https://github.com/rnelson/workstuff/archive/master.zip
-$ unzip master.zip && rm master.zip
-$ cd workstuff && ./install.sh
+$ wget --no-check-certificate -O workstuff-master.zip https://github.com/rnelson/workstuff/archive/master.zip
+$ unzip workstuff-master.zip && rm workstuff-master.zip
+$ cd workstuff-master && ./install.sh
+$ cd .. && rm -r workstuff-master
 ```
 
