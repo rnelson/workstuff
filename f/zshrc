@@ -14,8 +14,8 @@ bindkey -v
 # Set the timezone
 export TZ=CST6CDT
 
-# Set a good default PATH
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/sbin:/usr/sbin
+# Add ~/bin to $PATH
+export PATH=$HOME/bin:$PATH
 
 # Read .aliasrc for any aliases
 if [[ -r ~/.aliasrc ]]; then
