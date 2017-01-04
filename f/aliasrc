@@ -1,0 +1,9 @@
+alias dir='ls -1'
+alias xit="exit"
+alias exi="exit"
+
+# Some handy aliases
+alias ls="/bin/ls -F --color=auto"
+alias ll="/bin/ls -lAF --color=auto"
+alias grep='grep --color=auto'
+
