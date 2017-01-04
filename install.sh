@@ -19,6 +19,6 @@ then
 fi
 
 ## Copy new configs
-cp aliasrc ~/.aliasrc
-cp vimrc ~/.vimrc
-cp zshrc ~/.zshrc
+wget --no-check-certificate -O .aliasrc https://raw.githubusercontent.com/rnelson/workstuff/master/f/aliasrc 2>/dev/null
+wget --no-check-certificate -O .vimrc https://raw.githubusercontent.com/rnelson/workstuff/master/f/vimrc 2>/dev/null
+wget --no-check-certificate -O .zshrc https://raw.githubusercontent.com/rnelson/workstuff/master/f/zshrc 2>/dev/null
